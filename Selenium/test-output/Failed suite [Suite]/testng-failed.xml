@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="12" parallel="tests" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="12" parallel="tests" name="Test1(failed)(failed)">
+    <classes>
+      <class name="qsp.AddaLogingPage">
+        <methods>
+          <include name="logIn"/>
+        </methods>
+      </class> <!-- qsp.AddaLogingPage -->
+      <class name="qsp.Anotations">
+        <methods>
+          <include name="testtwo"/>
+        </methods>
+      </class> <!-- qsp.Anotations -->
+    </classes>
+  </test> <!-- Test1(failed)(failed) -->
+  <test thread-count="12" parallel="tests" name="Test(failed)(failed)">
+    <classes>
+      <class name="qsp.AddaLogingPage">
+        <methods>
+          <include name="logIn"/>
+        </methods>
+      </class> <!-- qsp.AddaLogingPage -->
+      <class name="qsp.Anotations">
+        <methods>
+          <include name="testtwo"/>
+        </methods>
+      </class> <!-- qsp.Anotations -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
