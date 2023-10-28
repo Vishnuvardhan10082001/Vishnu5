@@ -32,6 +32,6 @@ void test() throws IOException {
 	File src = ts.getScreenshotAs(OutputType.FILE);
 	File des =new File("./screenshot/ss.png");
 	FileUtils.copyFile(src, des);
-	System.out.println("hello");
+	System.out.println("bye");
 }
 }
